@@ -3,39 +3,26 @@
 \alias{EasyHTMLReport}
 \docType{package}
 \title{
-Easy to send HTML reports.
+Easy HTML-Mail Report
 }
 \description{
-  It is a package of easy to send HTML reports. \\
-  If sendmailR(<= 1.1-2) please install a modified version of me. https://github.com/yokkuns/sendmailR.
-  
-  $ git clone git@github.com:yokkuns/sendmailR.git \\
-  $ cd sendmailR \\
-  $ sudo make install \\
-
-  or
-
-  $ make package \\
-  $ R \\
-  > install.packages("sendmailR_1.1-2.tar.gz") \\
+It is a package that can be used to send HTML reports easily.
 }
 \details{
 \tabular{ll}{
 Package: \tab EasyHTMLReport\cr
 Type: \tab Package\cr
-Version: \tab 0.0.2\cr
-Date: \tab 2013-03-24\cr
-License: \tab BSD\cr
+Version: \tab 0.1.0\cr
+Date: \tab 2013-08-11\cr
+License: \tab GPL-2 \cr
 }
+
 }
 \author{
-Maintainer: Yohei Sato <yokkuns@tkuljp>
+Yohei Sato <yohei0511@gmail.com>
 }
 
 \keyword{ package }
-\seealso{
-  \code{\link{easyHtmlReport}}
-}
 
 \examples{
 \dontrun{

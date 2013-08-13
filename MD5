@@ -1,5 +1,11 @@
-4a3d32301c9f11962ba61eb398e6dea8 *DESCRIPTION
-8b54e5a89fbda3af5e077053d40bec76 *NAMESPACE
-a14ea3c5eccba4f5da3dcb8b44ac7ef8 *R/easyHtmlReport.R
-1c48377a48264c4da28bc43b15b20862 *man/EasyHTMLReport-package.Rd
-c270834d94c519bc32069f3c018c2050 *man/easyHtmlReport.Rd
+ee5ed7e9c437347c4471e31c312dff55 *DESCRIPTION
+8317ba204083cea0f9991eb52a8a950a *NAMESPACE
+853324b230badbf40792f57e5a9fba57 *R/EasyHTMLReport.R
+2e80bfaef680cdfe311b56cbb6104671 *R/sendmailEx.R
+3856fab877c57438d4bc39d60a4b8db5 *easy_html_report_tmp_1376284934.59207.tsv
+bcf52be7703ac8ee9adf9f19a1e1c2dc *easy_html_report_tmp_1376284935.5951.tsv
+3d74674efdaf83e8d8c0e0eeb5b3a9bc *easy_html_report_tmp_1376284936.59848.tsv
+bab8cc069a041fb32b275394facb5db0 *man/EasyHTMLReport-package.Rd
+c97d32caeee81083b6cb77d741797db0 *man/easyHtmlReport.Rd
+c4d7f5b28188ea62e141b788d9f7fa57 *man/sendmailEx.Rd
+9ad9ac4204fe0f1b2f3eb106fd0bc75f *man/simpleHtmlReport.Rd

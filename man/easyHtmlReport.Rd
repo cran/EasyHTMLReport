@@ -4,22 +4,12 @@
 Easy to send HTML reports.
 }
 \description{
-  It is a package of easy to send HTML reports. \\
-  If sendmailR(<= 1.1-2) please install a modified version of
-  me. https://github.com/yokkuns/sendmailR. \\
-  
-  $ git clone git@github.com:yokkuns/sendmailR.git \\
-  $ cd sendmailR \\
-  $ sudo make install \\
-
-  or
-
-  $ make package \\
-  $ R \\
-  > install.packages("sendmailR_1.1-2.tar.gz") \\
+Send HTML mail from Rmd file
 }
 \usage{
-easyHtmlReport(rmd.file, from, to, subject, headers = list(), control = list(), markdown.options = c("hard_wrap", "use_xhtml", "smartypants"), stylesheet = "")
+easyHtmlReport(rmd.file, from, to, subject, headers = list(), control = list(), 
+markdown.options = c("hard_wrap", "use_xhtml", "smartypants"), 
+stylesheet = "",echo.disable=TRUE,is.debug=F)
 }
 
 \arguments{
@@ -47,6 +37,12 @@ easyHtmlReport(rmd.file, from, to, subject, headers = list(), control = list(), 
   \item{stylesheet}{
     stylesheet file.
 }
+  \item{echo.disable}{
+    if echo.disable=TRUE, to set the "echo=FALSE" and "message=FALSE"
+}
+  \item{is.debug}{
+    if is.debug==TRUE, Do not send mail.
+  }
 }
 
 \value{

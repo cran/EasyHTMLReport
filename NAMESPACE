@@ -1,1 +1,4 @@
-exportPattern("^[[:alpha:]]+")
+export(easyHtmlReport)
+export(sendmailEx)
+export(simpleHtmlReport)
+
